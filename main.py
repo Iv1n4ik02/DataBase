@@ -153,7 +153,7 @@ class MainWindow(QtWidgets.QMainWindow):
             self.setStyleSheet('background-color: #fff; color: #000;')
     def keyPressEvent(self, event):
         if event.key() == Qt.Key_F1:
-            QMessageBox.information(self, "Разработчик", "Иванов Иван 19 пкс-2")
+            QMessageBox.information(self, "Разработчик", "https://github.com/Iv1n4ik02")
 if __name__ == '__main__':
     app = QtWidgets.QApplication([])
     window = MainWindow()
